@@ -36,8 +36,8 @@
       <div class="navbar-inner">
         <div class="container">
           <img src="{{ STATIC_URL }}zinnia_bootstrap/img/zinnia.png" class="pull-left" />
-          <a href="{% url 'zinnia_entry_archive_index' %}" title="Zinnia's Blog" class="brand" rel="home">
-            Zinnia's Blog
+          <a href="{% url 'zinnia_entry_archive_index' %}" title="Blog Ubuntu El Salvador" class="brand" rel="home">
+            Ubuntu El Salvador
           </a>
           <ul class="nav pull-left">
             {% url 'zinnia_category_list' as category_list_url %}
@@ -112,9 +112,9 @@
         </div>
         <div id="sidebar" class="span4">
           <div id="widget-welcome" class="widget well">
-            <h3>Welcome!</h3>
+            <h3>Bienvenidos!</h3>
             <p>
-              This simple skin is a base theme implementing Twitter's Bootstrap CSS toolkit.
+              Si tienes preguntas, por favor visita nuestro <a href="http://ask.ubuntusv.org">sitio de preguntas</a>
             </p>
           </div>
           {% block sidebar %}
